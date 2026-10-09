@@ -218,3 +218,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# --- Project-specific ---
+# Local raw SEC downloads
+data/
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+# Airflow
+airflow/logs/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+# OS
+.DS_Store

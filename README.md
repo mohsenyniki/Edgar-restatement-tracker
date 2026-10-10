@@ -14,7 +14,7 @@ Every 10-Q and 10-K repeats figures from earlier periods. When those figures qui
 4. **Serve:** dashboard with a watchlist, company pages, and a restatement alerts feed
 
 ## Planned stack
-Python · Airflow · dbt · SQL warehouse · AWS (kept to a few dollars/month)
+Python · Airflow · dbt · PostgreSQL · AWS (kept to a few dollars/month)
 
 ## Repo layout
 | Folder | Purpose |
